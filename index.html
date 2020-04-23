@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/cf72e27b3d.js" crossorigin="anonymous"></script>
     <script src="scripts.js"></script>
     <title>Ace in the Hole Multisports Events</title>
 </head>
@@ -16,13 +17,27 @@
     </script>
 
     <header>
+            <a href="javascript:void(0);" class="icon" onclick="dropLinks()">
+                <i class="fas fa-bars"></i>
+            </a>
         <h1>Heading 1</h1>
-        <nav>
+
+        <nav id="desktop-nav">
             <a href="index.html">Home</a>
             <a href="events.html">Events</a>
             <a href="register.html">Register</a>
             <a href="contact.html">Contact</a>
         </nav>
+
+        <nav id="mobile-nav">
+            <div id="links">
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="register.html">Register</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+
     </header>
 
     <div id="wrapper">
@@ -54,8 +69,9 @@
                     </blockquote>
                 </div>
 
-            </div> <!--Social Media Feed-->
-            
+            </div>
+            <!--Social Media Feed-->
+
             <br>
 
             <div id="weather-feed">

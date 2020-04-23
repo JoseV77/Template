@@ -1,3 +1,13 @@
+// mobile nav
+function dropLinks() {
+    var x = document.getElementById("links");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
 // Weather Feed
 ! function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
