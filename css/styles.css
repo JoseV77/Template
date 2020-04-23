@@ -5,6 +5,10 @@ p {
   padding-left: 1em;
   padding-right: 1em;
 }
+#weather-feed {
+  max-width: 22em;
+  max-height: 13em;
+}
 /* Slideshow */
 #slideshow {
   max-width: 22em;
