@@ -1,0 +1,53 @@
+/* Colors */
+@red: #FF0000; 
+@white: #FFFFFF;
+@black: #000000;
+
+/* Slideshow Sizes */
+@maxwidth-mobile: 22em;
+@max-height-mobile: 13em;
+
+@text-padding: 1em;
+
+/* --- Mobile Stylesheets --- */
+
+p {
+    padding-left: @text-padding;
+    padding-right: @text-padding;
+}
+
+/* Slideshow */
+
+#slideshow {
+    max-width: @maxwidth-mobile;
+    max-height: @max-height-mobile;
+    position: relative;
+    margin: auto;
+    background-color: black;
+    border: solid black 1px;
+}
+
+#slideshow img {
+    max-width: @maxwidth-mobile;
+    max-height: @max-height-mobile;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.number {
+    color: @white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Tablet Stylesheets */
+
+@media only screen and (min-width: 481px) {}
+
+/* Desktop Stylesheets */
+
+@media only screen and (min-width: 1025px) {}

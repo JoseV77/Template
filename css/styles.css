@@ -1,36 +1,33 @@
-/* Mobile Stylesheets */
-
-/* Tablet Stylesheets */
-
-@media only screen and (min-width: 481px) {}
-
-/* Desktop Stylesheets */
-
-@media only screen and (min-width: 1025px) {
-    
-    #slideshow {
-        max-width: 50em;
-        max-height: 30em;
-        position: relative;
-        margin: auto;
-        background-color: black;
-        border: solid black 1px;
-    }
-
-    #slideshow img {
-        max-width: 50em;
-        max-height: 30em;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        object-fit: cover;
-    }
-
-    .number {
-        color: white;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-         top: 0;
-    }
+/* Colors */
+/* Slideshow Sizes */
+/* --- Mobile Stylesheets --- */
+p {
+  padding-left: 1em;
+  padding-right: 1em;
 }
+/* Slideshow */
+#slideshow {
+  max-width: 22em;
+  max-height: 13em;
+  position: relative;
+  margin: auto;
+  background-color: black;
+  border: solid black 1px;
+}
+#slideshow img {
+  max-width: 22em;
+  max-height: 13em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+.number {
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* Tablet Stylesheets */
+/* Desktop Stylesheets */
