@@ -62,6 +62,7 @@ p {
 #weather-feed {
     max-width: @maxwidth-mobile;
     max-height: @max-height-mobile;
+    margin-top: 1em;
 }
 
 footer p {
@@ -164,6 +165,18 @@ footer p {
 /* Tablet Stylesheets */
 
 @media only screen and (min-width: 481px) {
+    h1 {
+        margin-left: 0.5em;
+    }
+
+    #mobile-nav {
+        margin-left: 1em;
+    }
+
+    .fa-bars {
+        margin-right: 0.1em;
+    }
+
     #slideshow {
         max-width: @maxwidth-tablet;
         max-height: @maxheight-tablet;
@@ -173,6 +186,13 @@ footer p {
         max-width: @maxwidth-tablet;
         max-height: @maxheight-tablet;
     }
+
+    #grid-items {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 1fr));
+        padding: 1em;
+    }
+
 }
 
 /* Desktop Stylesheets */
