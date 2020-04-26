@@ -7,6 +7,9 @@
 @maxwidth-mobile: 22em;
 @max-height-mobile: 13em;
 
+@maxheight-tablet: 25em;
+@maxwidth-tablet: 45em;
+
 @text-padding: 1em;
 
 /* --- Mobile Stylesheets --- */
@@ -69,7 +72,7 @@ footer p {
     padding-bottom: 0.5em;
 }
 
-/* Slideshow */
+/* Mobile Slideshow */
 
 #slideshow {
     max-width: @maxwidth-mobile;
@@ -113,7 +116,7 @@ footer p {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    background-color: @black;
+    background-color: @red;
     color: @white;
     font-weight: bold;
     font-size: 18px;
@@ -124,11 +127,6 @@ footer p {
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-    background-color: #cfcfcf;
 }
 
 .prev:active,
@@ -165,7 +163,17 @@ footer p {
 
 /* Tablet Stylesheets */
 
-@media only screen and (min-width: 481px) {}
+@media only screen and (min-width: 481px) {
+    #slideshow {
+        max-width: @maxwidth-tablet;
+        max-height: @maxheight-tablet;
+    }
+
+    #slideshow img {
+        max-width: @maxwidth-tablet;
+        max-height: @maxheight-tablet;
+    }
+}
 
 /* Desktop Stylesheets */
 
