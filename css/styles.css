@@ -38,6 +38,12 @@ p {
   padding-left: 1em;
   padding-right: 1em;
 }
+#socialmedia-feed,
+#weather-feed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 #weather-feed {
   max-width: 22em;
   max-height: 13em;
