@@ -44,6 +44,10 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+.fb-page {
+  width: 25em;
+  height: 10em;
+}
 #weather-feed {
   max-width: 22em;
   max-height: 13em;
@@ -151,7 +155,25 @@ footer p {
   #grid-items {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 1fr));
+    grid-gap: 1em;
     padding: 1em;
+  }
+  .fb-page {
+    width: 25em;
+    height: 10em;
+  }
+  #weather-feed,
+  .weatherwidget-io {
+    width: 20em;
+    height: 20em;
   }
 }
 /* Desktop Stylesheets */
+@media only screen and (min-width: 1025px) {
+  #content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    grid-gap: 1em;
+    padding: 1em;
+  }
+}
