@@ -169,11 +169,3 @@ footer p {
   }
 }
 /* Desktop Stylesheets */
-@media only screen and (min-width: 1025px) {
-  #content {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 1fr));
-    grid-gap: 1em;
-    padding: 1em;
-  }
-}
