@@ -152,11 +152,14 @@ footer p {
     max-width: 45em;
     max-height: 25em;
   }
-  #grid-items {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 1fr));
-    grid-gap: 1em;
-    padding: 1em;
+  #socialmedia-feed {
+    position: relative;
+    left: 1em;
+  }
+  #weather-feed {
+    position: relative;
+    left: 12.5em;
+    bottom: 27em;
   }
   .fb-page {
     width: 25em;
