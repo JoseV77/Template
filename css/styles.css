@@ -172,3 +172,27 @@ footer p {
   }
 }
 /* Desktop Stylesheets */
+@media only screen and (min-width: 1025px) {
+  #desktop-nav {
+    display: inline;
+  }
+  .icon,
+  .fa-bars,
+  #mobile-nav {
+    display: none;
+  }
+  #grid-items {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    grid-gap: 1em;
+    padding: 1em;
+  }
+  #socialmedia-feed,
+  #weather-feed {
+    position: static;
+  }
+  #socialmedia-feed {
+    grid-column-start: 2;
+    grid-row-end: 1;
+  }
+}
