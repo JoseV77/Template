@@ -11,6 +11,9 @@ body {
   overflow: hidden;
   position: relative;
 }
+#mobile-nav h1 {
+  font-size: 2em;
+}
 #mobile-nav #links {
   display: none;
   text-decoration: none;
@@ -29,7 +32,7 @@ body {
   font-size: 3em;
   position: relative;
   right: 0.2em;
-  bottom: 0.1em;
+  top: 0.3em;
 }
 .fa-bars:active {
   opacity: 0.5;
@@ -135,9 +138,6 @@ footer p {
 }
 /* Tablet Stylesheets */
 @media only screen and (min-width: 481px) {
-  h1 {
-    margin-left: 0.5em;
-  }
   #mobile-nav {
     margin-left: 1em;
   }
@@ -173,8 +173,9 @@ footer p {
 }
 /* Desktop Stylesheets */
 @media only screen and (min-width: 1025px) {
+  header,
   #desktop-nav {
-    display: inline;
+    display: flex;
   }
   .icon,
   .fa-bars,
