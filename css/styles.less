@@ -10,6 +10,9 @@
 @maxheight-tablet: 25em;
 @maxwidth-tablet: 45em;
 
+@maxheight-desktop: 30em;
+@maxwidth-desktop: 45em;
+
 @text-padding: 1em;
 
 /* --- Mobile Stylesheets --- */
@@ -238,6 +241,11 @@ footer p {
 /* Desktop Stylesheets */
 
 @media only screen and (min-width: 1025px) {
+    #wrapper {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
     #desktop-nav {
         display: flex;
         display: -webkit-flex;
@@ -245,7 +253,10 @@ footer p {
         -webkit-justify-content: flex-end;
         align-items: center;
         -webkit-align-items: center;
-        padding: 30px 10%;
+        padding-left: 9.7em;
+        padding-right: 19em;
+        font-size: 1.2em;
+        border-bottom: solid @red 2px;
     }
 
     #desktop-nav h1 {
@@ -255,6 +266,7 @@ footer p {
     #desktop-nav a {
         display: inline-block;
         padding: 0px 20px;
+        text-decoration: none;
     }
 
     .icon,
@@ -266,17 +278,37 @@ footer p {
     #grid-items {
         display: grid;
         grid-template-columns: repeat(2, minmax(140px, 1fr));
-        grid-gap: 1em;
         padding: 1em;
+    }
+
+    #slideshow {
+        max-width: @maxwidth-desktop;
+        max-height: @maxheight-desktop;
+    }
+
+    #slideshow img {
+        max-width: @maxwidth-desktop;
+        max-height: @maxheight-desktop;
+    }
+
+    #text {
+        padding: 4.5em;
     }
 
     #socialmedia-feed,
     #weather-feed {
         position: static;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     #socialmedia-feed {
         grid-column-start: 2;
         grid-row-end: 1;
     }
+
+    #weather-feed {
+        padding-right: 2.4em;
+    }
+
 }
