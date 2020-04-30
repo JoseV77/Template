@@ -16,6 +16,18 @@
 
 body {
     overflow-x: hidden;
+    background-color: @black;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav,
+#links,
+a,
+p {
+    color: @white;
 }
 
 #desktop-nav {
@@ -39,14 +51,13 @@ body {
 #mobile-nav a {
     text-decoration: none;
     display: block;
-    color: black;
     font-size: 1.3em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 
 .fa-bars {
-    color: @black;
+    color: @red;
     float: right;
     font-size: 3em;
     position: relative;
@@ -96,8 +107,8 @@ footer p {
     max-height: @max-height-mobile;
     position: relative;
     margin: auto;
-    background-color: black;
-    border: solid black 1px;
+    background-color: @black;
+    border: solid @white 1px;
 }
 
 #slideshow img {
@@ -246,7 +257,9 @@ footer p {
         padding: 0px 20px;
     }
 
-    .icon, .fa-bars, #mobile-nav {
+    .icon,
+    .fa-bars,
+    #mobile-nav {
         display: none;
     }
 
@@ -257,7 +270,8 @@ footer p {
         padding: 1em;
     }
 
-    #socialmedia-feed, #weather-feed {
+    #socialmedia-feed,
+    #weather-feed {
         position: static;
     }
 

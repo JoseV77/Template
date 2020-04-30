@@ -3,6 +3,17 @@
 /* --- Mobile Stylesheets --- */
 body {
   overflow-x: hidden;
+  background-color: #000000;
+}
+h1,
+h2,
+h3,
+h4,
+nav,
+#links,
+a,
+p {
+  color: #FFFFFF;
 }
 #desktop-nav {
   display: none;
@@ -21,13 +32,12 @@ body {
 #mobile-nav a {
   text-decoration: none;
   display: block;
-  color: black;
   font-size: 1.3em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
 .fa-bars {
-  color: #000000;
+  color: #FF0000;
   float: right;
   font-size: 3em;
   position: relative;
@@ -69,8 +79,8 @@ footer p {
   max-height: 13em;
   position: relative;
   margin: auto;
-  background-color: black;
-  border: solid black 1px;
+  background-color: #000000;
+  border: solid #FFFFFF 1px;
 }
 #slideshow img {
   max-width: 22em;
