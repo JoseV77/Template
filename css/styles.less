@@ -227,8 +227,23 @@ footer p {
 /* Desktop Stylesheets */
 
 @media only screen and (min-width: 1025px) {
-    header, #desktop-nav {
+    #desktop-nav {
         display: flex;
+        display: -webkit-flex;
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        align-items: center;
+        -webkit-align-items: center;
+        padding: 30px 10%;
+    }
+
+    #desktop-nav h1 {
+        margin-right: auto;
+    }
+
+    #desktop-nav a {
+        display: inline-block;
+        padding: 0px 20px;
     }
 
     .icon, .fa-bars, #mobile-nav {
