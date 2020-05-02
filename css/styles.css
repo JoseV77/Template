@@ -186,6 +186,12 @@ footer p {
 }
 /* Desktop Stylesheets */
 @media only screen and (min-width: 1025px) {
+  html,
+  body,
+  main {
+    padding: 0;
+    margin: 0;
+  }
   #wrapper {
     padding-left: 5em;
     padding-right: 5em;
@@ -245,5 +251,8 @@ footer p {
   }
   .weatherwidget-io {
     width: 21.4em;
+  }
+  footer {
+    margin-top: 5em;
   }
 }
