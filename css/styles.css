@@ -28,6 +28,7 @@ p {
 #mobile-nav #links {
   display: none;
   text-decoration: none;
+  padding-bottom: 0.5em;
 }
 #mobile-nav a {
   text-decoration: none;
@@ -47,12 +48,13 @@ p {
 .fa-bars:active {
   opacity: 0.5;
 }
-p {
+#text {
   padding-left: 1em;
   padding-right: 1em;
 }
 #socialmedia-feed,
-#weather-feed {
+#weather-feed,
+#text {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -60,6 +62,8 @@ p {
 .fb-page {
   width: 25em;
   height: 10em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 #weather-feed {
   max-width: 22em;
