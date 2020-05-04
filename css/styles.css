@@ -228,6 +228,7 @@ footer p {
   #grid-items {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 1fr));
+    grid-gap: 2em;
     padding: 1em;
   }
   #slideshow {
@@ -247,16 +248,15 @@ footer p {
     margin-left: auto;
   }
   #socialmedia-feed {
-    grid-column-start: 2;
-    grid-row-end: 1;
+    margin-left: 2em;
   }
   #weather-feed {
-    padding-right: 5em;
+    margin-left: 3.5em;
   }
   .weatherwidget-io {
     width: 21.4em;
   }
   footer {
-    margin-top: 5em;
+    margin-top: 3em;
   }
 }
