@@ -207,8 +207,8 @@ footer p {
     -webkit-justify-content: flex-end;
     align-items: center;
     -webkit-align-items: center;
-    padding-left: 9.7em;
-    padding-right: 19em;
+    padding-left: 1em;
+    padding-right: 1em;
     font-size: 1.2em;
     border-bottom: solid #FF0000 2px;
   }
@@ -228,7 +228,7 @@ footer p {
   #grid-items {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 1fr));
-    grid-gap: 2em;
+    grid-gap: 5em;
     padding: 1em;
   }
   #slideshow {
