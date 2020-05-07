@@ -41,8 +41,10 @@ p {
     position: relative;
 }
 
-#mobile-nav h1 {
-    font-size: 2em;
+#mobile-nav #logo {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
 }
 
 #mobile-nav #links {
@@ -208,6 +210,7 @@ footer p {
     }
 
     .fa-bars {
+        margin-top: 0.1em;
         margin-right: 0.1em;
     }
 
@@ -270,12 +273,15 @@ footer p {
         -webkit-align-items: center;
         padding-left: 1em;
         padding-right: 1em;
-        font-size: 1.2em;
+        font-size: 1.3em;
         border-bottom: solid @red 2px;
     }
 
-    #desktop-nav h1 {
+    #desktop-nav #logo {
         margin-right: auto;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
     }
 
     #desktop-nav a {
