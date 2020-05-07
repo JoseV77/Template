@@ -16,31 +16,31 @@
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0">
     </script>
 
-    <main>
+    <header>
+        <a href="javascript:void(0);" class="icon" onclick="dropLinks()">
+            <i class="fas fa-bars"></i>
+        </a>
 
-        <header>
-            <a href="javascript:void(0);" class="icon" onclick="dropLinks()">
-                <i class="fas fa-bars"></i>
-            </a>
+        <nav id="desktop-nav">
+            <h1>Heading 1</h1>
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+        </nav>
 
-            <nav id="desktop-nav">
-                <h1>Heading 1</h1>
+        <nav id="mobile-nav">
+            <h1>Heading 1</h1>
+            <div id="links">
                 <a href="index.html">Home</a>
                 <a href="events.html">Events</a>
                 <a href="register.html">Register</a>
                 <a href="contact.html">Contact</a>
-            </nav>
+            </div>
+        </nav>
+    </header>
 
-            <nav id="mobile-nav">
-                <h1>Heading 1</h1>
-                <div id="links">
-                    <a href="index.html">Home</a>
-                    <a href="events.html">Events</a>
-                    <a href="register.html">Register</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-            </nav>
-        </header>
+    <main>
 
         <div id="wrapper">
 
