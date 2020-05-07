@@ -28,7 +28,7 @@
                 <a href="index.html">Home</a>
                 <a href="events.html">Events</a>
                 <a href="register.html">Register</a>
-                <a href="contact.html">Contact</a>
+                <a href="contact">Contact</a>
             </nav>
 
             <nav id="mobile-nav">
@@ -43,6 +43,19 @@
         </header>
 
         <div id="wrapper">
+
+            <form method="post" action="" id="contactForm">
+                <h2>Ask your questions here!</h2>
+                <input type="text" name="honeypot" id="honeypot" value=""
+                    alt="if you fill this field out then your email will not be sent" />
+                <label for="myName">Name:</label>
+                <input type="text" name="myName" id="myName" required>
+                <label for="myEmail">E-mail:</label>
+                <input type="text" name="myEmail" id="myEmail" required>
+                <label for="myQuestion">Question:</label>
+                <textarea form="inquiryForm" rows="10" cols="50" name="myQuestion" id="myQuestion" required></textarea>
+                <input id="mySubmit" type="submit" value="Submit">
+            </form>
 
         </div>
 
