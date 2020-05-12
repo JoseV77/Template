@@ -44,6 +44,66 @@
 
         <div id="wrapper">
 
+            <div id="formBox">
+
+                <h2>Register for an Event!</h2>
+
+                <form method="post" action="">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" required><br>
+
+                    <label for="role">Choose your role:</label>
+                    <select id="roles" name="roles" required>
+                        <option value="athlete">Athlete</option>
+                        <option value="volunteer">Volunteer</option>
+                    </select><br>
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required><br><br>
+
+                    <label for="name">Emergency Contact Name:</label>
+                    <input type="text" id="name" name="contactName" required><br>
+
+                    <label for="emegencyPhone">Enter your emergency contacts phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="503-333-333"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+                    <label for="gender">Gender:</label>
+                    <select id="roles" name="roles">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="nonBinary">Non-binary</option>
+                    </select><br>
+                    <label for="other">Other:</label>
+                    <input type="text" name="other"><br><br>
+
+                    
+                    <label for="events"><strong>Saturday</strong> Events Registering For:</label>
+                    <select id="roles" name="events">
+                        <option value="long">Long Course Triathlon 7:00 AM</option>
+                        <option value="olympic">Olympic Triathlon 7:30 AM</option>
+                        <option value="10k">10K 7:15 AM</option>
+                        <option value="half">Half Marathon 7:15 AM</option>
+                    </select><br><br>
+
+                    <label for="events"><strong>Sunday</strong> Events Registering For:</label>
+                    <select id="roles" name="events">
+                        <option value="spring">Sprint Triathlon 8:00 AM</option>
+                        <option value="try">Try-a-Tri 8:20 AM</option>
+                        <option value="splash">Splash n Dash 12:00 PM</option>
+                    </select><br><br>
+
+                    <label for="question">Any special accommodations needed:</label><br>
+                    <textarea rows="10" cols="40" name="question" id="question"></textarea><br><br>
+                    <input id="submit" type="submit" value="Submit">
+
+                </form>
+
+            </div>
+
         </div>
 
     </main>
