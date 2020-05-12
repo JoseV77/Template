@@ -168,6 +168,17 @@ form {
   text-align: left;
   font-size: 1.5em;
 }
+#submit {
+  background: #000000;
+  border: solid #FF0000 2px;
+  color: #FF0000;
+  border-radius: 25%;
+  padding: 0.5em;
+}
+#submit:active {
+  background: #FF0000;
+  color: #000000;
+}
 /* Tablet Stylesheets */
 @media only screen and (min-width: 481px) {
   #mobile-nav {
