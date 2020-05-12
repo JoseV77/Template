@@ -12,7 +12,9 @@ h4,
 nav,
 #links,
 a,
+li,
 form,
+table,
 p {
   color: #FFFFFF;
 }
@@ -72,6 +74,20 @@ p {
   max-width: 22em;
   max-height: 13em;
   margin-top: 1em;
+}
+table {
+  margin: auto;
+  border: solid #FFFFFF 2px;
+  width: 90%;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 5px;
+  border: solid #FFFFFF 1px;
+}
+td {
+  text-align: center;
 }
 footer {
   margin-top: 1em;
@@ -259,6 +275,11 @@ form {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 1fr));
     grid-gap: 5em;
+    padding: 1em;
+  }
+  #register-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
     padding: 1em;
   }
   #slideshow {

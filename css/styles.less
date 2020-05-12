@@ -28,7 +28,9 @@ h4,
 nav,
 #links,
 a,
+li,
 form,
+table,
 p {
     color: @white;
 }
@@ -99,6 +101,22 @@ p {
     max-width: @maxwidth-mobile;
     max-height: @max-height-mobile;
     margin-top: 1em;
+}
+
+table {
+    margin: auto;
+    border: solid @white 2px;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+    border: solid @white 1px;
+}
+
+td {
+    text-align: center;
 }
 
 footer {
@@ -329,6 +347,12 @@ form {
         display: grid;
         grid-template-columns: repeat(2, minmax(140px, 1fr));
         grid-gap: 5em;
+        padding: 1em;
+    }
+
+    #register-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 1fr));
         padding: 1em;
     }
 
