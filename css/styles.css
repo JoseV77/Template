@@ -76,6 +76,7 @@ p {
   margin-top: 1em;
 }
 table {
+  table-layout: fixed;
   margin: auto;
   border: solid #FFFFFF 2px;
   width: 90%;
